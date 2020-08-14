@@ -1,0 +1,19 @@
+{
+    "name": "carlituxman/test",
+    "description": "Carlituxman's Test Package",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "carlituxman",
+            "email": "carlos@informatik.es"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Carlituxman\\Test\\": "src/"
+        }
+    },
+    "require": {}
+}
