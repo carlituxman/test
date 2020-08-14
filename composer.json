@@ -15,5 +15,15 @@
             "Carlituxman\\Test\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Carlituxman\\Test\\TestServiceProvider"
+            ],
+            "aliases": {
+                "CarlituxmanTest": "Carlituxman\\Test\\Facade"
+            }
+        }
+    }
 }
